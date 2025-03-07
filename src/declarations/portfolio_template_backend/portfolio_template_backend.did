@@ -1,0 +1,5 @@
+service : {
+  getVisitCount: () -> (nat) query;
+  greet: () -> (text) query;
+  recordVisit: () -> (nat);
+}
